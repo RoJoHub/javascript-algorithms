@@ -8,7 +8,12 @@
 
 _Read this in other languages:_
 [_English_](https://github.com/trekhleb/javascript-algorithms/),
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md),
+[한국어](README.ko-KR.md)
+
+> We’re writing a book that will clearly explain, in detail, the main algorithms. 
+If you’d like to be notified when the “JavaScript Algorithms” book 
+launches, [click here](https://upscri.be/402324/).
 
 ## 資料結構
 
@@ -68,7 +73,7 @@ _Read this in other languages:_
   * [合併排序](src/algorithms/sorting/merge-sort)
   * [快速排序](src/algorithms/sorting/quick-sort)
   * [希爾排序](src/algorithms/sorting/shell-sort)
-* **樹**  
+* **樹**
   * [深度優先搜尋](src/algorithms/tree/depth-first-search) (DFS)
   * [廣度優先搜尋](src/algorithms/tree/breadth-first-search) (BFS)
 * **圖**
@@ -86,7 +91,8 @@ _Read this in other languages:_
   * [漢彌爾頓環](src/algorithms/graph/hamiltonian-cycle) - Visit every vertex exactly once
   * [強連通組件](src/algorithms/graph/strongly-connected-components) - Kosaraju's algorithm
   * [旅行推銷員問題](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
-* **未分類**  
+  * [Floyd-Warshall algorithm](src/algorithms/graph/floyd-warshall) - 一次循环可以找出所有頂點之间的最短路徑
+* **未分類**
   * [河內塔](src/algorithms/uncategorized/hanoi-tower)
   * [N-皇后問題](src/algorithms/uncategorized/n-queens)
   * [騎士走棋盤](src/algorithms/uncategorized/knight-tour)
@@ -116,7 +122,7 @@ _Read this in other languages:_
 * **動態編程** - build up to a solution using previously found sub-solutions
   * [費伯納西數列](src/algorithms/math/fibonacci)
   * [萊溫斯坦距離](src/algorithms/string/levenshtein-distance) - minimum edit distance between two sequences
-  * [最長共同子序列](src/algorithms/sets/longest-common-subsequnce) (LCS)
+  * [最長共同子序列](src/algorithms/sets/longest-common-subsequence) (LCS)
   * [最長共同子字串](src/algorithms/string/longest-common-substring)
   * [最長遞增子序列](src/algorithms/sets/longest-increasing-subsequence)
   * [最短共同子序列](src/algorithms/sets/shortest-common-supersequence)
@@ -145,7 +151,7 @@ npm test
 
 **以名稱執行該測試**
 ```
-npm test -- -t 'LinkedList'
+npm test -- 'LinkedList'
 ```
 **練習場**
 
@@ -154,7 +160,7 @@ npm test -- -t 'LinkedList'
 接著直接執行下列的指令來測試你練習的 code 是否如預期運作：
 
 ```
-npm test -- -t 'playground'
+npm test -- 'playground'
 ```
 
 ## 有用的資訊
